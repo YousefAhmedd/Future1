@@ -7,12 +7,67 @@ h3{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fbackground%2F&psig=AOvVaw17sqMUXkch9GJjxMaE4ZZI&ust=1605793790298000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjajJ-ejO0CFQAAAAAdAAAAABAD");
-    background-repeat: repeat-y;
-    background-position: center;
-}
+body { 
+                
+    background-image: url("https://images.unsplash.com/photo-1532708059644-5590ed51ce4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
+    background-size: cover;
+  }
+
 .Heading{
     font-size:40px;
     color:grey;
 }
+ul{
+    list-style-type: none;
+    border : 1px solid grey;
+    background-color: white;
+    overflow:hidden;
+}
+li{
+    float: left;
+}
+.nav-right{
+    float: right;
+}
+
+    text-decoration: none;
+    color: grey;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 14px;
+}
+li a:hover{
+    background-color: grey;
+}
+li a.active{
+    background-color: grey;
+    color: wheat;
+
+}
+div{ 
+    border:5px;
+    border-style: double;
+    border-radius: 20px;
+    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+
+}
+thead{
+    background-color: whitesmoke;
+    color: grey;
+
+}
+
+tbody tr:nth-child(even){
+    background-color: lightpink;
+}
+
